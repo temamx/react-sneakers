@@ -23,7 +23,7 @@ function Header(props) {
         </li>
         <li>
           <Link to={process.env.PUBLIC_URL + '/favorites'}> 
-            <img className="cu-p mr-20" width={18} height={18} src="img/Heart.svg" alt="Favorites"/>
+            <img className="cu-p mr-20" width={18} height={18} src="img/heart.svg" alt="Favorites"/>
           </Link>
         </li>
         <li>
