@@ -106,7 +106,7 @@ function App() {
         />
 
         <Routes>
-          <Route exact path="/" element={
+          <Route exact path={process.env.PUBLIC_URL + '/'} element={
             <Home 
             items={items}
             basketItems={basketItems}
@@ -119,11 +119,11 @@ function App() {
             />
           }/>
             
-          <Route exact path="favorites" element={
+          <Route exact path={process.env.PUBLIC_URL + '/favorites'} element={
             <Favorites/>
           }/>
 
-          <Route exact path="orders" element={
+          <Route exact path={process.env.PUBLIC_URL + '/orders'} element={
             <Orders/>
           }/>
 
