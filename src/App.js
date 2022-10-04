@@ -119,11 +119,11 @@ function App() {
             />
           }/>
             
-          <Route exact path="/favorites" element={
+          <Route exact path="favorites" element={
             <Favorites/>
           }/>
 
-          <Route exact path="/orders" element={
+          <Route exact path="orders" element={
             <Orders/>
           }/>
 
